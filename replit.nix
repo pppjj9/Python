@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.sgtpuzzles
     pkgs.python38Full
   ];
   env = {
